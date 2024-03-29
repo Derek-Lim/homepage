@@ -5,9 +5,9 @@
 
 .name {
   position: absolute;
-  bottom: -60px;
+  bottom: -40px;
   left: 20px;
-  font-size: 100px;
+  font-size: 60px;
   color: brown;
 }
 
@@ -18,24 +18,24 @@
 }
 
 .bio-heading {
-  font-size: 80px;
+  font-size: 50px;
 }
 
 .bio-text {
   margin: 10%;
-  font-size: 40px;
-  margin-top: -40px;
+  font-size: 30px;
+  margin-top: -30px;
   color: grey;
 }
 
 .bio-icons {
   display: flex;
-  gap: 50px;
+  gap: 40px;
 }
 
 .projects-heading {
   text-align: center;
-  font-size: 80px;
+  font-size: 50px;
 }
 
 .projects-container {
@@ -48,8 +48,8 @@
 
 .projects-screenshot {
   color: white;
-  padding: 100px;
-  font-size: 80px;
+  padding: 50px;
+  font-size: 30px;
   text-align: center;
 }
 .projects-info {
@@ -59,12 +59,11 @@
 .projects-title {
   display: flex;
   justify-content: space-around;
-  font-size: 50px;
+  font-size: 20px;
 }
 .projects-description {
-  font-size: 40px;
+  font-size: 18px;
   color: grey;
-  padding: 0px 0px 50px 30px;
 }
 .project-1 > .projects-screenshot {
   background-color: red;
@@ -90,31 +89,31 @@
   color: white;
   display: flex;
   flex-direction: column;
-  padding: 40px;
-  gap: 50px;
+  padding: 10px;
+  gap: 20px;
 }
 
 .contact-heading {
   align-self: center;
-  font-size: 80px;
+  font-size: 40px;
   margin: 0;
 }
 
 .contact-invitation {
-  font-size: 55px;
+  font-size: 30px;
   margin: 0;
 }
 
 .contact-address {
-  font-size: 40px;
+  font-size: 20px;
 }
 
 .contact-contact-info {
-  font-size: 40px;
+  font-size: 20px;
 }
 
 .contact-icons {
   align-self: center;
   display: flex;
-  gap: 70px;
+  gap: 40px;
 }
