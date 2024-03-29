@@ -1,0 +1,120 @@
+.container {
+  position: relative;
+  margin: 10%;
+}
+
+.name {
+  position: absolute;
+  bottom: -60px;
+  left: 20px;
+  font-size: 100px;
+  color: brown;
+}
+
+.bio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bio-heading {
+  font-size: 80px;
+}
+
+.bio-text {
+  margin: 10%;
+  font-size: 40px;
+  margin-top: -40px;
+  color: grey;
+}
+
+.bio-icons {
+  display: flex;
+  gap: 50px;
+}
+
+.projects-heading {
+  text-align: center;
+  font-size: 80px;
+}
+
+.projects-container {
+  display: grid;
+}
+
+.project {
+  margin: 10%;
+}
+
+.projects-screenshot {
+  color: white;
+  padding: 100px;
+  font-size: 80px;
+  text-align: center;
+}
+.projects-info {
+  border: 1px solid black;
+  padding: 20px;
+}
+.projects-title {
+  display: flex;
+  justify-content: space-around;
+  font-size: 50px;
+}
+.projects-description {
+  font-size: 40px;
+  color: grey;
+  padding: 0px 0px 50px 30px;
+}
+.project-1 > .projects-screenshot {
+  background-color: red;
+}
+.project-2 > .projects-screenshot{
+  background-color: purple;
+}
+.project-3 > .projects-screenshot{
+  background-color: pink;
+}
+.project-4 > .projects-screenshot{
+  background-color: orange;
+}
+.project-5 > .projects-screenshot{
+  background-color: purple;
+}
+.project-6 > .projects-screenshot{
+  background-color: green;
+}
+
+.contact {
+  background-color: skyblue;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  gap: 50px;
+}
+
+.contact-heading {
+  align-self: center;
+  font-size: 80px;
+  margin: 0;
+}
+
+.contact-invitation {
+  font-size: 55px;
+  margin: 0;
+}
+
+.contact-address {
+  font-size: 40px;
+}
+
+.contact-contact-info {
+  font-size: 40px;
+}
+
+.contact-icons {
+  align-self: center;
+  display: flex;
+  gap: 70px;
+}
