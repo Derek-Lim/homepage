@@ -90,6 +90,8 @@
 
 .contact {
   background-color: skyblue;
+  display: flex;
+  flex-direction: column;
 }
 
 .contact-content {
@@ -169,7 +171,8 @@
   }
 
   .contact {
-    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
   }
 
   .contact-content {
@@ -179,5 +182,30 @@
   .contact-picture-container {
     width: 300px;
     padding: 20px;
+  }
+}
+
+@media screen and (min-width: 780px) { /* computer-layout */
+  .intro-picture-container {
+    width: 250px;
+    position: relative;
+    top: 100px;
+  }
+
+  .bio {
+    position: relative;
+    top: 60px;
+  }
+
+  .bio-icons {
+    display: flex;
+  }
+
+  .projects-container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .contact-content {
+    width: 500px;
   }
 }
